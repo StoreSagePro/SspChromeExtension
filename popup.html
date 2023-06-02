@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Hello World!</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="popup">
+    <div class="popup-content">
+      <div class="company__info">
+        <span class="company__logo"><img src="CompanyLogo.png" alt="Company Logo"></span>
+      </div>      
+      <div class="login_form">
+        <h2>Log In</h2>
+        <form control="" class="form-group">
+          <div class="form-row">
+            <input type="text" name="username" id="username" class="form__input" placeholder="Username">
+          </div>
+          <div class="form-row">
+            <input type="password" name="password" id="password" class="form__input" placeholder="Password">
+          </div>
+          <div class="form-row">
+            <input type="checkbox" name="remember_me" id="remember_me" class="">
+            <label for="remember_me">Remember Me!</label>
+          </div>
+          <div class="form-row">
+            <input type="submit" value="Submit" class="btn">
+          </div>
+        </form>
+        <div class="register-row">
+          <p>Don't have an account? <a href="#">Register Here</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2023 StoreSagePro. All rights reserved.</p>
+    </div>
+  </div>
+</body>
 </html>
